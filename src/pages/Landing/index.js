@@ -1,12 +1,13 @@
 import React from "react";
-import Button from "../../components/button";
+// import Button from "../../components/button";
 import "./landing.css";
+import Navs from "../../components/main-nav/main-nav";
 
 export default function Landing() {
   return (
     <div>
-      <h1>Hello world</h1>
-      <Button title={"Button"} type={"submit"} className={"landing-btn"} />
+      <Navs/>
+      {/* <Button title={"Button"} type={"submit"} className={"landing-btn"} /> */}
     </div>
   );
 }
