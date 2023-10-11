@@ -5,14 +5,14 @@
     width: 416px;
     height:48px;
     border-radius: 8px;
-    background: #FFFFFF1A;
-    padding: 12px;    
+    background-color: #FFFFFF1A;
+    /* padding: 12px;     */
     gap: 0;
 }
 
 .input{
-  width: 416px;
-  height:24px;
+   width: 416px;
+   height: 48px;
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
@@ -20,12 +20,17 @@
     letter-spacing: 0em;
     text-align: left;
     color: #FFFFFF;
-    background: #FFFFFF1A;
+    background-color: #FFFFFF1A;
     background-image: url('./search.svg');
-  background-position: 10px 10px 10px 10px; 
+  background-position:  10px 10px; 
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
-    border: none;
+  border-radius: 8px;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1; /* Firefox */
 }

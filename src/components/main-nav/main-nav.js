@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../button';
-import Searchs from "../../pages/Search/index"
+import Searchs from "../Search/index"
 import "./main-nav.css"
 
 export default function Navs() {
@@ -16,7 +16,7 @@ export default function Navs() {
             <p className='logos'>PanWines</p>
         </div>
         <div>
-           <Searchs/>
+           <Searchs className='vav-search'/>
         </div>
         <div className='nav-others'>
             <div className='nav-cart'>
