@@ -1,0 +1,93 @@
+.container-1 {
+  width: 50%;
+  height: 100%;
+  align-content: center;
+  padding-left: 20px;
+}
+.text-1 {
+  font-family: Playfair Display;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 421px;
+  height: 44px;
+  color: #411530;
+}
+
+.text-2 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.text-3 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.text-4 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.text-5 {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.input-1 {
+  width: 50%;
+  height: 20%;
+  padding: 16px;
+  border-radius: 12px;
+  border: 100px;
+  gap: 8px;
+}
+.input-2 {
+  width: 50%;
+  height: 20%;
+  padding: 16px;
+  border-radius: 12px;
+  border: 100px;
+  gap: 8px;
+}
+.input-3 {
+  width: 50%;
+  height: 20%;
+  padding: 16px;
+  border-radius: 12px;
+  border: 100px;
+  gap: 8px;
+}
+.input-4 {
+  width: 50%;
+  height: 20%;
+  padding: 16px;
+  border-radius: 12px;
+  border: 100px;
+  gap: 8px;
+}
+
+.shipping-btn {
+  color: white;
+  background-color: #411530;
+  margin-top: 32px;
+  width: 55%;
+  padding: 16px;
+  border: 1px;
+  border-radius: 8px;
+}
