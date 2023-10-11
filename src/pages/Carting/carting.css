@@ -1,0 +1,162 @@
+.carting-1 {
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+  padding: 0;
+  gap: 10px;
+}
+
+.carting-3 {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 700;
+  padding-left: 20px;
+  color: #411530;
+}
+.carting-2 {
+  margin: 0;
+  padding: 0;
+}
+.carting-5 {
+  margin: 0;
+}
+.carting-4 {
+  margin: 0;
+  margin-top: 10px;
+}
+.carting-6 {
+  margin: 0;
+  padding-bottom: 20px;
+  margin-right: 30px;
+}
+
+.carting-7 {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  border-color: black;
+  border-style: outset;
+  gap: 49%;
+  border: 1px solid #411530;
+}
+.carting-9 {
+  display: flex;
+  flex-direction: row;
+  gap: 85%;
+}
+.carting-8 {
+  font-size: 28px;
+  font-weight: 500;
+  margin: 45px;
+  color: #411530;
+}
+.carting-10 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #411530;
+}
+.carting-11 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #411530;
+}
+.carting-12 {
+  font-size: 28px;
+  font-weight: 500;
+  color: #411530;
+}
+
+.carting-13 {
+  display: flex;
+  flex-direction: row;
+  gap: 37%;
+}
+.carting-14 {
+  display: flex;
+  flex-direction: row;
+  margin: 40px;
+}
+.carting-15 {
+  margin: 40px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.carting-15 {
+  display: flex;
+  flex-direction: row;
+  gap: 70%;
+}
+.carting-27 {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+  gap: 14px;
+  margin-top: 23px;
+}
+.carting-29 {
+  display: flex;
+  width: 52px;
+  height: 28px;
+  border: 1px solid #411530;
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  justify-content: center;
+}
+.carting-32 {
+  margin: 40px;
+  margin-top: 100px;
+}
+.carting-33 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.carting-34 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.carting-25 {
+  display: flex;
+  flex-direction: row;
+  gap: 71%;
+}
+.carting-28 {
+  margin-top: 10px;
+}
+.carting-30 {
+  margin-top: 5px;
+}
+
+.carting-35 {
+  display: flex;
+  background-color: #411530;
+  color: white;
+  align-items: center;
+  width: 400px;
+  height: 100px;
+  border-radius: 12px;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  font-size: 32px;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 700px;
+}
