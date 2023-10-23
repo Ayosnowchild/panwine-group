@@ -1,10 +1,12 @@
 import React from 'react'
 import "./checkout-4.css"
 import { Link } from 'react-router-dom'
+import NavProgressbar from '../../../components/checkout-nav/navcheckout'
 
 export default function Order() {
   return (
     <div>
+      <NavProgressbar/>
          <div className='container-4'>
           <h2 className='order-t1'>Please confirm and submit your order</h2>
           <p className='order-t2'>By clicking submit order, you agree to terms of Use and privacy policy</p>
@@ -22,11 +24,13 @@ export default function Order() {
             <div className='order-input2'>
                 <div>
                 <h4 className='order-name3'>Shipping Address</h4>
-                <p className='order-name4'>Name of Country</p>
+                <p className='order-name4'>Name</p>
+                <p className='order-name4'>Country</p>
                 </div>
-                <div>
+                <div className='con2'>
                     <p className='order-name5'>Edit</p>
                     <input className='order-card4' name='text' placeholder='lawrence kinsley'/>
+                    <input className='order-card5' name='text' placeholder='Albania'/>
                 </div>
                 
             </div>

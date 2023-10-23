@@ -1,10 +1,12 @@
 import React from 'react'
 import "./checkout-1.css"
 import { Link } from 'react-router-dom'
+import NavProgressbar from '../../components/checkout-nav/navcheckout'
 
 export default function Shipping() {
   return (
     <div>
+      <NavProgressbar/>
       <div className='container-1'>
         <h1 className='text-1'>Shipping Details</h1>
         <form>

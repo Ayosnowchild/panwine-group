@@ -1,3 +1,10 @@
+.payment-page {
+  width: 97%;
+  display: flex;
+  padding: auto;
+  flex-direction: column;
+}
+
 .container-2 {
   width: 100%;
   height: 100%;
@@ -30,6 +37,12 @@
   margin-bottom: 10px;
 }
 
+.btn {
+  background: #f5b86a;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
 .payment-btn {
   color: white;
   background-color: #411530;

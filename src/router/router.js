@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Landing from "../pages/Landing";
-import Shipping from "../pages/checkout-page/checkout-page1/checkout-1";
+import Shipping from "../pages/checkout-page/checkout-1";
 import Payment from "../pages/checkout-page/checkout-page2/checkout-2";
 import Card from "../pages/checkout-page/checkout-page3/checkout-3";
 import Order from "../pages/checkout-page/checkout-page4/checkout-4";
