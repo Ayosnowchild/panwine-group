@@ -9,25 +9,16 @@ function Productupload(Landing) {
       <p className="productup1">Upload photo</p>
       <div className="productup2">
         <form className="productup3">
-          <input
-            type="productname"
-            placeholder="Product Name"
-            name="productname"
-          />
-          <input
-            type="productprice"
-            placeholder="Product Price"
-            name="productprice"
-          />
-          <input type="category" placeholder="Category" name="category" />
-          <input type="stock" placeholder="Stock" name="stock" />
+          <input type="text" placeholder="Product Name" name="productname" />
+          <input type="text" placeholder="Product Price" name="productprice" />
+          <input type="text" placeholder="Category" name="category" />
+          <input type="text" placeholder="Stock" name="stock" />
         </form>
       </div>
       <div className="productup4">
         <p className="productup5">Click to select image</p>
         <p className="productup6">Browse</p>
       </div>
-      {/* <button className="productup7">Upload</button> */}
       <Link className="link" to="/">
         <Button title={"Upload"} type={"submit"} className={"productup7"} />
       </Link>
