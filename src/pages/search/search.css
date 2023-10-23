@@ -2,22 +2,22 @@
     width: 100%;
     height: 43px;
     margin-top: 60px;
-    margin-bottom: 60px;
-    /* margin-left: 4.878%; */
+    /* margin-bottom: 10px; */
+
+    padding-left: 4.878%;
+    color: #411530;
     font-family: Playfair Display;
     font-size: 32px;
+    font-style: normal;
     font-weight: 900;
-    line-height: 43px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: rgba(65, 21, 48, 1);
+    line-height: normal;
 
 }
 
 .search-result-par{
     height: 43px;
-    top: 200px;
-    margin-left: 4.878%;
+    margin-top: 64px;
+    /* margin-left: 4.878%; */
     font-family: Playfair Display;
     font-size: 32px;
     font-weight: 900;

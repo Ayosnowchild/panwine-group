@@ -1,13 +1,15 @@
 .count-con{
     display: flex;
+    padding: 12px;
     justify-content: center;
     align-items: center;
-    /* margin-top: 32px; */
+    gap: 8px;
+    border-radius: 16px;
+    background: #F9F6F8;
     width: 148px;
     height: 56px;
     /* padding: 12px; */
-    border-radius: 16px;
-    gap: 3px
+   
 }
 
 .cart-btn{

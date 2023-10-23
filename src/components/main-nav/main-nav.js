@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../button';
-import Searchs from "../Search/index"
+import Searchs from "../Nav-Search/index"
 import "./main-nav.css"
 
 export default function Navs() {

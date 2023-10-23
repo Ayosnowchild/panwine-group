@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './search.css'
+import './nav-search.css'
 
 function Searchs(){
     const [inputs, setInputs] = useState({});

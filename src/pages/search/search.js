@@ -1,5 +1,5 @@
 import React from 'react'
-import "./search-page.css"
+import "./search.css"
 import Navs from '../../components/main-nav/main-nav'
 import ProContainer from '../../components/products/new-arrival/product-cont'
 import Footer from '../../components/foot-nav/foot-nav'
@@ -12,7 +12,6 @@ function Searchpage() {
         <div className='search-result'>
         <h1 className='search-result-par'>Search Results</h1>
         </div>
-        
         <Categoty/>
         <ProContainer/>
         <Footer/>

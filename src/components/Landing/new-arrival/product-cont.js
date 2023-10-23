@@ -6,9 +6,7 @@ function ProContainer(props) {
   return (
     <div className='product-large'>
         <div className='container-row'>
-            <div className='header-cont'>
-                <h2 className='product-header'>{props.prodhead}</h2>
-            </div>
+            
             <div className='product-cont'> 
                 <div className='row-product'>
                     <div className='single-product'>
