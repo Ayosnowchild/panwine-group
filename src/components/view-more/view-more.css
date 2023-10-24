@@ -23,3 +23,8 @@
     font-weight: 800;
     line-height: 32px; 
 }
+
+.link-search{
+    text-decoration: none;
+    color:  rgba(65, 21, 48, 0.60);;
+}

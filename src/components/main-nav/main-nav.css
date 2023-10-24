@@ -37,6 +37,11 @@
 
 }
 
+.link-p{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 .base-nav{
     padding-left: 4.444%;
     padding-right: 4.444%;

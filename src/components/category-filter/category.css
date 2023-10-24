@@ -9,7 +9,7 @@
 
 }
 
-.colour-container{
+.color-container{
     width: 77.5%;
     height: 40px;
     display: flex;
@@ -17,6 +17,23 @@
     align-items: center;
     gap: 1.666667%;
 
+}
+
+.color-name{
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    gap: 8px;
+    color: #411530;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; 
+    border-radius: 24px;
+    background: #F9E3F0;
 }
 
 .category-btn{

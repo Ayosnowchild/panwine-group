@@ -5,7 +5,7 @@ import ProContainer from '../../components/Landing/new-arrival/product-cont'
 import Footer from '../../components/foot-nav/foot-nav'
 import Categoty from '../../components/category-filter/categoty'
 
-function Searchpage() {
+function Search() {
   return (
     <div>
         <Navs/>
@@ -20,4 +20,4 @@ function Searchpage() {
   )
 }
 
-export default Searchpage
+export default Search

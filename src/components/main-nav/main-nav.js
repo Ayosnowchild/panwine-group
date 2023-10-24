@@ -2,13 +2,14 @@ import React from 'react'
 import Button from '../button';
 import Searchs from "../Nav-Search/index"
 import "./main-nav.css"
+import { Link } from 'react-router-dom';
 
 export default function Navs() {
   return (
     <div className='Navss'>
     <div className='mini-nav'>
-        <p className='minipara'>Home</p>
-        <p className='minipara'>Products</p>
+    <p className='minipara'>Home</p>
+        <p className='minipara'><Link to={"./search"} className='link-p'>Products</Link></p>
         <p className='minipara'>Support</p>
     </div>
     <div className='base-nav'>

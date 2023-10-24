@@ -4,6 +4,7 @@ import "./home.css";
 // import '../../components/products/clearsp.png'
 import Navs from "../../components/main-nav/main-nav";
 import Banner from "./banner/banner";
+
 // import Products from "../../components/products/A-product";
 import ProContainer from "../../components/Landing/new-arrival/product-cont";
 import Exotic from "../../components/Landing/Top-Exotic/exotic"

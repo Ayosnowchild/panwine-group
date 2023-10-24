@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import Landing from "../pages/Home";
-import Searchpage from "../pages/search/search";
+import Search from "../pages/search/search";
 
 export const router = createBrowserRouter([
   {
@@ -10,7 +10,7 @@ export const router = createBrowserRouter([
     children: [{ index: true, element: <Landing /> },
     {
       path: "/search",
-      element: <Searchpage/>
+      element: <Search/>
     },
   ]
     
