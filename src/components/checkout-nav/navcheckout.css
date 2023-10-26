@@ -13,7 +13,7 @@
   display: flex;
 }
 
-.checkmark {
+/* .checkmark {
   height: 20px;
   width: 20px;
   color: #411530;
@@ -22,6 +22,30 @@
   border: 5px solid red;
   border-radius: 50%;
   background-color: blue;
+} */
+
+input[type="checkbox"] + label {
+  /* display: block; */
+  margin: 0.2em;
+}
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"] + label:before {
+  content: "\2714";
+  border: 0.1em solid #411530;
+  border-radius: 100em;
+  margin-right: 0.3em;
+  width: 0.4em;
+  height: 0.4em;
+  font-size: 0.3em;
+  padding: 0.3em;
+  vertical-align: middle;
+  color: transparent;
+}
+input[type="checkbox"] + label:before {
+  background-color: #411530;
+  color: #fff;
 }
 
 .nav-text1 {
