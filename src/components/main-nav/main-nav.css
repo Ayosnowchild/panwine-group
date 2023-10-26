@@ -48,29 +48,14 @@
     background-color: #411530;
 }
 
-.logo-nav{
-    width: Hug (166px);
-    height: Hug (32px);
-    padding: 0;
-    margin: 0;
-    padding-bottom: 20px;
-    /* gap: 8px; */
-}
-
 .logos{
-    width: 158px;
-    height: 24px;
     color: #FFFFFF;
     font-family: Inter;
     font-size: 32px;
     font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0em;
-    text-align: left;
-
 }
 
-.nav-search{
+/* .nav-search{
     display: flex;
     align-content: center;
     width: 416px;
@@ -79,9 +64,9 @@
     background: #FFFFFF1A;
     padding: 12px;
     gap: 8px;
-}
+} */
 
-.navinput{
+/* .navinput{
     width: 370px;
     height: 24px;
     font-family: Inter;
@@ -90,18 +75,15 @@
     line-height: 24px;
     letter-spacing: 0em;
     text-align: left;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
     background: #FFFFFF1A;
 
-
-
-}
+} */
 
 .nav-others{
     display: flex;
-    width: 276px;
-    height: 48px;
     gap: 16px;
+    background-color: white;
 }
 
 .nav-login{
@@ -127,8 +109,4 @@
     color: #FFFFFF;
     border: 1px solid #FFFFFF
 
-}
-
-.vav-search{
-    background-color: #FFFFFF1A;
 }
