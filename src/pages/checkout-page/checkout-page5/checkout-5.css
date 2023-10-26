@@ -1,0 +1,35 @@
+.container-5 {
+  width: 33%;
+  height: 100%;
+  margin-left: 35%;
+}
+
+.reciept-image {
+  width: 150px;
+  height: 150px;
+  margin-left: 33%;
+}
+.reciept-text1 {
+  text-align: center;
+}
+.reciept-text2 {
+  text-align: center;
+}
+.reciept-btn1 {
+  color: white;
+  background-color: #411530;
+  padding: 16px;
+  border: 1px;
+  width: 100%;
+  margin-top: 40px;
+  border-radius: 12px;
+}
+.reciept-btn2 {
+  color: white;
+  background-color: #411530;
+  padding: 16px;
+  border: 1px;
+  width: 100%;
+  margin-top: 40px;
+  border-radius: 12px;
+}
