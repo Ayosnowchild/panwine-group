@@ -1,0 +1,38 @@
+.count-con{
+    display: flex;
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 16px;
+    background: #F9F6F8;
+    width: 148px;
+    height: 56px;
+    /* padding: 12px; */
+   
+}
+
+.cart-btn{
+    width: 32px;
+    height: 32px;
+    /* padding: 4px; */
+    border-radius: 8px;
+    background: rgba(249, 227, 240, 1);
+    color: rgba(51, 16, 38, 1);
+}
+
+.count-box{
+    width: 44px;
+    height: 32px;
+    /* padding: 4px, 8px, 4px, 8px; */
+    border-radius: 8px;
+    gap: 8px;
+    background: white;
+    color: rgba(51, 16, 38, 1);
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
