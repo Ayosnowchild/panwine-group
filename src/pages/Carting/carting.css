@@ -1,21 +1,34 @@
+.carting-parent {
+  width: 98%;
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+
+.carting-count {
+  border: 1px solid #411530;
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 8px;
+  right: 3px;
+}
 .carting-1 {
   display: flex;
-  flex-direction: row;
-  margin: 25px;
-  padding: 0;
   gap: 10px;
+  width: 100%;
+  margin: 16px;
 }
 
 .carting-3 {
   font-family: Inter;
   font-size: 28px;
   font-weight: 700;
-  padding-left: 20px;
   color: #411530;
-}
-.carting-2 {
-  margin: 0;
-  padding: 0;
 }
 .carting-5 {
   margin-top: 20px;
@@ -23,32 +36,36 @@
 .carting-4 {
   display: flex;
   flex-direction: row;
-  margin: 0;
   margin-top: 10px;
-}
-.carting-6 {
-  margin: 0;
 }
 
 .carting-7 {
   display: flex;
-  width: auto;
+
   flex-direction: row;
-  border-color: black;
-  border-style: outset;
-  gap: 49%;
-  border: 1px solid #411530;
+  border-top: 1px solid #411530;
+  border-bottom: 1px solid #411530;
+  border-width: 100%;
+  justify-content: space-between;
+  align-items: center;
 }
 .carting-9 {
   display: flex;
-  flex-direction: row;
-  gap: 85%;
+  gap: 80px;
+  width: 50%;
+}
+
+.carting-9 p,
+.carting-15 p,
+.carting-27 {
+  width: 30%;
 }
 .carting-8 {
   font-size: 28px;
   font-weight: 500;
-  margin: 45px;
+  width: 50%;
   color: #411530;
+  margin: 16px;
 }
 .carting-10 {
   font-size: 28px;
@@ -68,45 +85,52 @@
 
 .carting-13 {
   display: flex;
+  width: 100%;
+  margin: 16px;
   flex-direction: row;
-  gap: 33%;
+  justify-content: space-between;
+  align-items: center;
 }
 .carting-14 {
   display: flex;
   flex-direction: row;
-  margin: 40px;
+  width: 50%;
+  gap: 16px;
 }
 .carting-15 {
-  margin: 40px;
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
-}
-.carting-15 {
   display: flex;
-  flex-direction: row;
-  gap: 70%;
+  gap: 80px;
+  width: 50%;
 }
+
 .carting-27 {
   display: flex;
   flex-direction: row;
-  margin: 0;
-  padding: 0;
-  gap: 14px;
-  margin-top: 23px;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  padding-right: 110px;
 }
+.carting-41 {
+  padding-top: 120px;
+  margin: 16px;
+}
+
+.carting-21 {
+  padding-right: 70px;
+}
+
 .carting-29 {
   display: flex;
   width: 52px;
   height: 28px;
   border: 1px solid #411530;
-  margin: 0;
-  padding: 0;
   font-family: Inter;
   font-size: 16px;
   font-weight: 500;
-  line-height: 20px;
-  letter-spacing: 0em;
   text-align: center;
   justify-content: center;
 }
@@ -114,21 +138,24 @@
   display: flex;
   flex-direction: column;
   font-family: Inter;
-  margin: 40px;
   margin-top: 100px;
   margin-bottom: 10px;
-  padding: 10px;
+  justify-content: space-between;
+  margin: 16px;
 }
+
 .carting-33 {
   display: flex;
-  justify-content: space-between;
   font-family: Inter;
+  justify-content: space-between;
   font-size: 24px;
   font-weight: 500;
 }
 .carting-34 {
   display: flex;
   justify-content: space-between;
+  align-content: space-between;
+  align-items: space-between;
   font-family: Inter;
   font-size: 24px;
   font-weight: 500;
@@ -139,12 +166,8 @@
   gap: 71%;
 }
 .carting-28 {
-  margin-top: 10px;
+  margin-top: 7px;
 }
-.carting-30 {
-  margin-top: 5px;
-}
-
 .carting-35 {
   display: flex;
   background-color: #411530;
@@ -158,6 +181,4 @@
   align-self: center;
   font-size: 32px;
   font-weight: 600;
-  text-align: left;
-  margin-left: 700px;
 }
