@@ -107,6 +107,7 @@
     width: 276px;
     height: 48px;
     gap: 16px;
+    /* background-color: aqua; */
 }
 
 .nav-login{
