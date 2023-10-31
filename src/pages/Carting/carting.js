@@ -1,6 +1,5 @@
 import React from "react";
 import "../Carting/carting.css";
-// import { Link } from "react-router-dom";
 function Carting() {
   return (
     <div className="carting-parent">
@@ -79,7 +78,7 @@ function Carting() {
       </div>
       <div className="carting-13">
         <div className="carting-14">
-          <img src="./images/Rectangle 46.png" placeholder="ang" />
+          <img src="./images/Rectangle 46.png" alt="ang" />
           <p className="carting-15">Amarone: Red Wine </p>
         </div>
         <div className="carting-15">
