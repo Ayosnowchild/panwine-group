@@ -1,28 +1,27 @@
-.container2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 416px;
-    height:48px;
-    border-radius: 8px;
-    background-color: #FFFFFF1A;
-    /* padding: 12px;     */
-    gap: 0;
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 416px;
+  height: 48px;
+  border-radius: 8px;
+  background-color: #ffffff1a;
+  gap: 0;
 }
 
-.input{
-   width: 416px;
-   height: 48px;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-    background-color: #FFFFFF1A;
-    background-image: url('./search.svg');
-  background-position:  10px 10px; 
+.input {
+  width: 416px;
+  height: 48px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  background-color: #ffffff1a;
+  background-image: url("./search.svg");
+  background-position: 10px 10px;
   background-repeat: no-repeat;
   padding: 12px 20px 12px 40px;
   -webkit-transition: width 0.4s ease-in-out;
@@ -32,5 +31,5 @@
 
 ::placeholder {
   color: white;
-  opacity: 1; /* Firefox */
+  opacity: 1;
 }

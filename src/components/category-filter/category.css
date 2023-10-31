@@ -1,73 +1,69 @@
-.cate-container{
-    width: 100%;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.666667%;
-    padding: 4.44444%;
-
+.cate-container {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.666667%;
+  padding: 4.44444%;
 }
 
-.color-container{
-    width: 77.5%;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1.666667%;
-
+.color-container {
+  width: 77.5%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.666667%;
 }
 
-.color-name{
-    display: flex;
-    padding: 8px 16px;
-    justify-content: center;
-    align-items: center;
-    white-space: nowrap;
-    gap: 8px;
-    color: #411530;
-    font-family: Inter;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px; 
-    border-radius: 24px;
-    background: #F9E3F0;
+.color-name {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
+  gap: 8px;
+  color: #411530;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  border-radius: 24px;
+  background: #f9e3f0;
 }
 
-.category-btn{
-    display: flex;
-    width: 138px;
-    height: 40px;
-    padding: 8px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    border-radius: 8px;
-    border: 1px solid rgba(34, 34, 34, 0.30);
+.category-btn {
+  display: flex;
+  width: 138px;
+  height: 40px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid rgba(34, 34, 34, 0.3);
 }
 
-
-
-.filter-container{
-    display: flex;
-    width: 138px;
-    height: 40px;
-    padding: 8px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
-    flex: 1 0 0;
-    border-radius: 8px;
-    border: 1px solid rgba(34, 34, 34, 0.30);
+.filter-container {
+  display: flex;
+  width: 138px;
+  height: 40px;
+  padding: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex: 1 0 0;
+  border-radius: 8px;
+  border: 1px solid rgba(34, 34, 34, 0.3);
 }
 
-.filter-text{
-    color: #222;
-font-family: Inter;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px; /* 142.857% */
+.filter-text {
+  color: #222;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
 }
