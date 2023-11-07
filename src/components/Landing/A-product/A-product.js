@@ -7,12 +7,12 @@ function Products(props) {
     <div className="productp">
       <div className="prod-cont">
         <img src={props.img} alt="products" className="prod-img" />
-        <p className="big-name">{props.prodname}</p>
-        <p className="small-name">{props.smallname}</p>
-        <div className="addcart-cont">
-          <Addcart />
-          <p className="pro-price">#12,400.00</p>
+        <div className="name-container">
+          <p className="big-name">{props.prodname}</p>
+          <p className="small-name">{props.smallname}</p>
         </div>
+
+        <Addcart />
       </div>
     </div>
   );
