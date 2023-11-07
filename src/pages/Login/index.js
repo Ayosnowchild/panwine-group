@@ -16,23 +16,31 @@ export default function Login() {
           <img src="./Rec.png" alt="wine" />
         </div>
         <div class="loginn">
-          <h1>Sign In To Panwine</h1>
+          <h1 className="logins">Sign In To Panwine</h1>
           <form>
+            <p className="logine">Email</p>
             <input
               class="logini"
               type="email"
               placeholder="Email Address"
               name="email"
             />
+            <p className="logine">Password</p>
             <input
               class="logini"
               type="password"
               placeholder="Password"
               name="password"
             />
+
             <button class="loginb" type="submit">
               Sign In
             </button>
+            <h1 class="loginf">
+              <Link id="hh" to={"/password"}>
+                Forget Password?
+              </Link>
+            </h1>
             <div class="loginl">
               Dont have an Account?
               <Link id="hh" to={"/Signup"}>

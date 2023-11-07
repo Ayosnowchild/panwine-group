@@ -43,63 +43,63 @@ nav {
 .Signup2 {
   position: absolute;
   font-size: 48px;
-  width: 234px;
+  width: 421px;
   height: 60px;
   margin: 60px;
   font-weight: 60px;
   color: white;
 }
 
-.Signupi {
-  width: 656px;
-  height: 60px;
-  border-radius: 12px;
-  margin-top: 40px;
-  margin-bottom: 30px;
-  font-size: 24px;
-  color: #411530;
+.Signupc {
+  font-size: 32px;
+  margin: 30px auto;
+  width: 421px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 421px;
 }
 
-.Signupf {
-  margin-top: 50px;
-  margin-left: 455px;
-  width: 206px;
-  height: 28px;
-  font-size: 22px;
+.Signupi {
+  width: 421px;
+  height: 60px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  color: #80295e;
 }
+
 .Signupn {
   padding: 24px 0;
-  color: #411530;
+  color: #80295e;
   width: 50%;
   height: 100%;
   overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .Signupb {
-  margin-top: 25px;
-  margin-left: 150px;
-  width: 420px;
+  margin-bottom: 30px;
+  width: 421px;
   height: 60px;
   font-size: 24px;
   color: white;
-  background-color: #411530;
+  background-color: #80295e;
   border-radius: 12px;
 }
 
-#Or {
-  margin-top: 50px;
-  margin-left: 300px;
-  margin-bottom: 5px;
-}
 .Signupl {
-  width: 420px;
+  width: 421px;
   height: 48px;
   font-size: 18px;
-  margin-left: 150px;
+  margin-bottom: 30px;
   border-radius: 12px;
   font-size: 24px;
-  margin-top: 10px;
-  color: #411530;
+  color: #80295e;
 }
 input[type="password"]::placeholder {
   background: url("../../../public/pass.png");

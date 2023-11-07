@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./password.css";
 
 export default function Password() {
@@ -16,29 +17,31 @@ export default function Password() {
           <img src="./Rec.png" alt="wine" />
         </div>
         <div class="Passwordn">
-          <h1>Reset Password</h1>
+          <h1 className="Passwordr">Reset Password</h1>
           <form>
+            <p className="Passworde">Email</p>
             <input
               class="Passwordi"
-              type="password"
-              placeholder="Old Password"
-              name="password"
+              type="email"
+              placeholder="Email Address"
+              name="email"
             />
+            <p className="Passworde">Email</p>
             <input
               class="Passwordi"
-              type="password"
-              placeholder="New Password"
-              name="password"
-            />
-            <input
-              class="Passwordi"
-              type="password"
-              placeholder="Confirm Password"
-              name="password"
+              type="num"
+              placeholder="Phone Number"
+              name="num"
             />
             <button class="Passwordb" type="submit">
               Submit
             </button>
+            <div class="Passwordl">
+              Already have an Account?
+              <Link id="hh" to={"/Login"}>
+                Login
+              </Link>
+            </div>
           </form>
         </div>
       </div>
