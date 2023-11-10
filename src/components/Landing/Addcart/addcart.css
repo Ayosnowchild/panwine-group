@@ -1,0 +1,51 @@
+.count-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.addcart-cont {
+  display: flex;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 16px;
+  background: #f9f6f8;
+  width: 148px;
+  height: 56px;
+}
+
+.cart-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: rgba(249, 227, 240, 1);
+  color: rgba(51, 16, 38, 1);
+}
+
+.count-box {
+  width: 28px;
+  height: 32px;
+
+  border-radius: 8px;
+  gap: 8px;
+  background: white;
+  color: rgba(51, 16, 38, 1);
+  align-items: center;
+  text-align: center;
+  padding-top: 10px;
+}
+.pro-price {
+  width: 146px;
+  height: 32px;
+  gap: 4px;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  color: rgba(51, 16, 38, 1);
+}
